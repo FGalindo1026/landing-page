@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px 200px;
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.img1 {
+    height: auto;
+    width: 450px;
+}
+
+.img2 {
+    height: 200px;
+    width: auto;
+}
+
+.box1, .box2, .box3, .box4, .info1, .info2, .info3{
+    display: flex;
+}
+
+.info1, .box2, .box3, .info4 {
+    flex-direction: column;
+}
+
+.box1 {
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.info1 {
+    width: 450px;
+    gap: 8px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1, .button2 {
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: none;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button2 {
+    border-color: white;
+}
