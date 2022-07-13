@@ -100,6 +100,73 @@ a {
     justify-content: center;
 }
 
+.box3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    padding: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.sig {
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.actionbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882f6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.info3 {
+    color: white;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button2 {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color: #f9faf8;
+    height: 100px;
+}
 
 
 
